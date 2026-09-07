@@ -1,0 +1,16 @@
+# Wildfire-Flood-Cascade-Sandbox
+
+> Interactive honesty map for GenesisAeon P121 (wildfire-flood-cascade-utac v1.0.1).
+> Seven verified cascade links; combined causal chain is NOT a single studied system.
+> No UTAC/CREP/AFET bridge. No invented Gamma. Numbers/DOIs 1:1 from source package.
+
+## Source
+- Package: wildfire-flood-cascade-utac (P121)
+- Repo: https://github.com/GenesisAeon/wildfire-flood-cascade-utac
+- AI-Context: /context.json (schema 1.2.0, kind=mechanik)
+
+## Honesty
+- is_combined_cascade_a_directly_studied_single_system() = false
+- component_mechanisms_independently_verified() = true
+- is_shift_direction_uniform_globally() = false (structural)
+- is_mechanism_soil_hydrophobicity() = false

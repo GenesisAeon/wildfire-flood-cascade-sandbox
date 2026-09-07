@@ -1,0 +1,41 @@
+{
+  "title": "wildfire-flood-cascade-sandbox - P121: Interactive wildfire-flood cascade honesty map",
+  "description": "<p>Interactive honesty map ported 1:1 from wildfire-flood-cascade-utac (P121). Components verified; combined cascade not studied as one system. NO UTAC/CREP/AFET. No package DOI yet.</p>",
+  "creators": [
+    {
+      "name": "Römer, Johann",
+      "affiliation": "MOR Research Collective"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "0.1.0",
+  "keywords": [
+    "GenesisAeon",
+    "P121",
+    "wildfire-flood-cascade",
+    "honesty",
+    "fire-season",
+    "flood"
+  ],
+  "communities": [
+    {
+      "identifier": "genesisaeon"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/GenesisAeon/wildfire-flood-cascade-utac",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/GenesisAeon/wildfire-flood-cascade-sandbox/blob/main/WHITEPAPER.md",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    }
+  ]
+}

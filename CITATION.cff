@@ -1,0 +1,82 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Römer
+    given-names: Johann
+    affiliation: "MOR Research Collective"
+title: "wildfire-flood-cascade-sandbox"
+version: "0.1.0"
+date-released: "2026-09-07"
+url: "https://github.com/GenesisAeon/wildfire-flood-cascade-sandbox"
+repository-code: "https://github.com/GenesisAeon/wildfire-flood-cascade-sandbox"
+license: MIT
+abstract: "Real fire-season timing shift (regionally divergent, not global), two independent precipitation-intensification mechanisms (smoke-aerosol invigoration, warmer-SST moisture), and three independent flood-severity-amplification mechanisms (post-fire canopy loss, degraded river channels/floodplains, settlement-area sealing). A dedicated synthesis module makes explicit that the full combined cascade is not itself a single directly-studied finding, though every component link is real. Deliberately no UTAC/CREP/AFET bridge and no invented Gamma value -- see DISCLAIMER.md. Interactive sandbox ported 1:1 from wildfire-flood-cascade-utac. GenesisAeon P121."
+keywords:
+  - GenesisAeon
+  - P121
+  - climate
+  - wildfire
+  - precipitation
+  - flood risk
+  - open-science
+references:
+  - type: article
+    title: "Regionally divergent shifts in global fire season timing under recent warming"
+    authors:
+      - name: "Fan, S."
+      - name: "Tao, W."
+      - name: "Zhang, Y."
+    year: 2026
+    journal: "Geophysical Research Letters"
+    doi: "10.1029/2025GL121153"
+  - type: article
+    title: "Advancing fire season onset across California ecoregions"
+    authors:
+      - name: "Madakumbura, G.D."
+    year: 2025
+    journal: "Science Advances"
+    doi: "10.1126/sciadv.adt2041"
+  - type: article
+    title: "Wildfire smoke aerosols invigorate precipitation across fire-impacted regions"
+    authors:
+      - name: "Zhu, H."
+      - name: "Zhao, H."
+      - name: "Yang, S."
+    year: 2025
+    journal: "npj Climate and Atmospheric Science"
+    doi: "10.1038/s41612-025-01047-3"
+  - type: article
+    title: "Anthropogenic warming intensified the October 2024 Valencia flash-flood rainfall"
+    authors:
+      - name: "Calvo-Sancho, C."
+      - name: "Diaz-Fernandez, J."
+      - name: "Gonzalez-Aleman, J.J."
+    year: 2026
+    journal: "Nature Communications"
+    doi: "10.1038/s41467-026-68929-9"
+  - type: article
+    title: "Interception reduction from deforestation and forest fire increases large-scale fluvial flooding risk"
+    authors:
+      - name: "Kang, T-H."
+    year: 2025
+    journal: "Communications Earth & Environment"
+    doi: "10.1038/s43247-025-02748-6"
+  - type: article
+    title: "River channel change can affect flood hazard and impact substantially"
+    authors:
+      - name: "Hawker, L."
+      - name: "Darby, S."
+      - name: "Slater, L."
+    year: 2026
+    journal: "Communications Earth & Environment"
+    doi: "10.1038/s43247-026-03517-9"
+  - type: article
+    title: "Flood-sensitive land take (FSL) analysis: A new way to read how urban sealing shapes flood risk"
+    authors:
+      - name: "Azadgar, A."
+      - name: "Benedini, A."
+      - name: "Salata, S."
+    year: 2026
+    journal: "Journal of Environmental Management"
+    doi: "10.1016/j.jenvman.2026.129513"

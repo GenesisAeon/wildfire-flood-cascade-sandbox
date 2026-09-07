@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.2.0",
+  "generated": "2026-09-07",
+  "app": {
+    "id": "wildfire-flood-cascade-sandbox",
+    "title": "Wildfire-Flood-Cascade-Sandbox",
+    "kind": "mechanik",
+    "repo_url": "https://github.com/GenesisAeon/wildfire-flood-cascade-sandbox"
+  },
+  "source_package": {
+    "name": "wildfire-flood-cascade-utac",
+    "package_id": 121,
+    "version": "1.0.1",
+    "repo_url": "https://github.com/GenesisAeon/wildfire-flood-cascade-utac",
+    "ported_note": "1:1 port at source v1.0.1. No new number."
+  },
+  "primary_sources": [
+    {
+      "authors": "Fan et al.",
+      "year": 2026,
+      "title": "Regionally divergent shifts in global fire season timing under recent warming",
+      "journal": "Geophysical Research Letters",
+      "doi": "10.1029/2025GL121153"
+    },
+    {
+      "authors": "Madakumbura et al.",
+      "year": 2025,
+      "title": "Advancing fire season onset across California ecoregions",
+      "journal": "Science Advances",
+      "doi": "10.1126/sciadv.adt2041"
+    },
+    {
+      "authors": "Zhu et al.",
+      "year": 2025,
+      "title": "Wildfire smoke aerosols invigorate precipitation across fire-impacted regions",
+      "journal": "npj Climate and Atmospheric Science",
+      "doi": "10.1038/s41612-025-01047-3"
+    },
+    {
+      "authors": "Calvo-Sancho et al.",
+      "year": 2026,
+      "title": "Anthropogenic warming intensified the October 2024 Valencia flash-flood rainfall",
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-68929-9"
+    },
+    {
+      "authors": "Kang et al.",
+      "year": 2025,
+      "title": "Interception reduction from deforestation and forest fire increases large-scale fluvial flooding risk",
+      "journal": "Communications Earth & Environment",
+      "doi": "10.1038/s43247-025-02748-6"
+    },
+    {
+      "authors": "Hawker et al.",
+      "year": 2026,
+      "title": "River channel change can affect flood hazard and impact substantially",
+      "journal": "Communications Earth & Environment",
+      "doi": "10.1038/s43247-026-03517-9"
+    },
+    {
+      "authors": "Azadgar et al.",
+      "year": 2026,
+      "title": "Flood-sensitive land take (FSL) analysis",
+      "journal": "Journal of Environmental Management",
+      "doi": "10.1016/j.jenvman.2026.129513"
+    }
+  ],
+  "verified_quantities": [
+    {
+      "name": "CALIFORNIA_ONSET_ADVANCE_MIN_DAYS",
+      "value": 6,
+      "unit": "days",
+      "source": "Madakumbura 2025"
+    },
+    {
+      "name": "CALIFORNIA_ONSET_ADVANCE_MAX_DAYS",
+      "value": 46,
+      "unit": "days",
+      "source": "Madakumbura 2025"
+    },
+    {
+      "name": "HOURLY_RAINFALL_INTENSITY_INCREASE_PCT_PER_DEGC",
+      "value": 20.0,
+      "unit": "%/degC",
+      "source": "Calvo-Sancho 2026"
+    },
+    {
+      "name": "CLAUSIUS_CLAPEYRON_BASELINE_PCT_PER_DEGC",
+      "value": 7.0,
+      "unit": "%/degC",
+      "source": "Calvo-Sancho 2026"
+    },
+    {
+      "name": "PRE_FIRE_FLOOD_PROBABILITY",
+      "value": 0.016,
+      "unit": "annual probability",
+      "source": "Kang 2025"
+    },
+    {
+      "name": "POST_MEGAFIRE_FLOOD_PROBABILITY",
+      "value": 0.127,
+      "unit": "annual probability",
+      "source": "Kang 2025"
+    },
+    {
+      "name": "FLOOD_EXTENT_UNDERESTIMATION_RANGE_PCT",
+      "value": [
+        9.0,
+        152.0
+      ],
+      "unit": "%",
+      "source": "Hawker 2026"
+    },
+    {
+      "name": "POPULATION_EXPOSURE_UNDERESTIMATION_RANGE_PCT",
+      "value": [
+        15.0,
+        472.0
+      ],
+      "unit": "%",
+      "source": "Hawker 2026"
+    },
+    {
+      "name": "SMOKE_AEROSOL_REGIONS_STUDIED",
+      "value": 5,
+      "unit": "count",
+      "source": "Zhu 2025"
+    }
+  ],
+  "tipping": {
+    "kind": "undefined",
+    "value": null,
+    "unit": null,
+    "derived_from": "Source package has no tipping framing; cascade links are mechanisms, not a bistable tip.",
+    "defined": false,
+    "origin": "undefined"
+  },
+  "regen": {
+    "kind": "undefined",
+    "value": null,
+    "unit": null,
+    "derived_from": "No regeneration timescale in source; none invented.",
+    "defined": false,
+    "origin": "undefined"
+  },
+  "entropy_bg": {
+    "kind": "undefined",
+    "value": null,
+    "unit": null,
+    "derived_from": "No matching quantity in source; none invented.",
+    "defined": false,
+    "origin": "undefined"
+  },
+  "comparable": false,
+  "formula_ref": "CASCADE_LINKS synthesis honesty (isCombinedCascadeADirectlyStudiedSingleSystem), no ODE",
+  "honesty_checks": [
+    {
+      "name": "isCombinedCascadeADirectlyStudiedSingleSystem",
+      "always_returns": false,
+      "meaning": "Full combined causal chain not studied as one system."
+    },
+    {
+      "name": "componentMechanismsIndependentlyVerified",
+      "always_returns": true,
+      "meaning": "Each link has a real verified citation."
+    },
+    {
+      "name": "isShiftDirectionUniformGlobally",
+      "always_returns": false,
+      "meaning": "Structural over FIRE_SEASON_SHIFT_BY_BIOME directions."
+    },
+    {
+      "name": "isMechanismSoilHydrophobicity",
+      "always_returns": false,
+      "meaning": "Kang: interception, not hydrophobicity."
+    },
+    {
+      "name": "isEffectClaimedGloballyUniform",
+      "always_returns": false,
+      "meaning": "Zhu: regional, not universal coefficient."
+    },
+    {
+      "name": "exceedsClausiusClapeyronScaling",
+      "always_returns": true,
+      "meaning": "20 %/degC > 7 %/degC baseline."
+    },
+    {
+      "name": "isChannelChangeEffectComparableToClimateChange",
+      "always_returns": true,
+      "meaning": "Hawker framing."
+    }
+  ],
+  "framework_overlay": {
+    "used": false,
+    "terms": []
+  },
+  "disclaimer": "Komponenten verifiziert. Kombinierte Kette nicht als Einzelstudie belegt. Kein UTAC/CREP/AFET, kein Gamma."
+}
